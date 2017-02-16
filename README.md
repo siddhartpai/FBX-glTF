@@ -95,10 +95,10 @@ Required: gcc 4.8+ (tested on Ubuntu Linux 14.04 Desktop)
   
   4. Install ‘casablanca’ on your system by running ‘sudo make install’
 
-  5. Recommended: Create a folder with the name you want, and go in that directory
+  5. Recommended: Create a folder with the name you want, and go in that directory `[FBX-glTF/<your directory>]`
   
   6. Optional: Copy the CMakeConfigExample.txt file and rename it as CMakeCache.txt in your build folder,
-     and edit the FBX path entry. That will avoid you to type the parameters below.
+     and edit the FBX-SDK path entry. That will avoid you to type the parameters below.
 
   7. Execute: 
   
@@ -107,7 +107,7 @@ Required: gcc 4.8+ (tested on Ubuntu Linux 14.04 Desktop)
      b. For a debug build: cmake .. -DCMAKE_BUILD_TYPE=Debug -DFBX_SDK=&lt;path to FBX&gt;
 
      or simply ‘cmake ..’ if you followed step 6.
-
+    
 	
 # Usage Instructions
 
